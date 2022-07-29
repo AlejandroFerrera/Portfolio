@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: white;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #00c9a7;
+    border-color: #00c9a7;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #00ab8e;
+    border-color: #00a186;
+    box-shadow: 0 4px 11px rgb(0 201 167 / 35%);
+}
+
+.btn-secondary:hover {
+    box-shadow: 0 4px 11px rgb(196, 196, 196);
+}
+
+.btn-transition {
+    transition: all .2s ease-in-out;
+}
+
+.btn-transition:focus,
+.btn-transition:hover {
+    -webkit-transform: translateY(-.1875rem);
+    transform: translateY(-.1875rem);
+}
+
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #00c9a7;
+    outline: 0;
+    box-shadow: none;
+}
+
+/* Navbar */
+
+.nav-link {
+    color: #677788;
+}
+
+.nav-link:hover, .nav-link:focus, .nav-link:active {
+    color: #00ab8e;
+    text-decoration: underline;
+}
+
+
+/* End of navbar */
+
+
+/* Heading */
+.text-cap {
+    display: block;
+    color: #1e2022;
+    font-size: .8125rem;
+    font-weight: 600;
+    letter-spacing: .03125rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-left: 2px;
+}
+
+h1 {
+    font-weight: 600;
+    line-height: 1.2;
+    color: #1e2022;
+    font-size: 50px;
+}
+
+.description {
+    color: #677788;
+    font-size: x-large;
+}
+
+/* End of heading */
+
+
+
+/* Profile image  */
+.img-container {
+    position: relative;
+}
+
+.image-container img {
+    border-radius: 10px;
+}
+
+.figure {
+    background-color: rgba(55, 125, 255, .1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+/* End of profile image  */
+
+
+/* User form  */
+
+
+/* End of user form  */
+
+
+
+/* -----------------------------About page------------------------- */
